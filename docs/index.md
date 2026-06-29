@@ -1,4 +1,4 @@
-# omniimage
+# OmniImage
 
 Unified Go library for image generation across multiple providers.
 
