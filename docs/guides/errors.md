@@ -1,6 +1,6 @@
 # Error Handling
 
-omniimage provides structured error types for handling API errors gracefully.
+OmniImage provides structured error types for handling API errors gracefully.
 
 ## Error Types
 

@@ -1,6 +1,6 @@
 # Image Sizes
 
-omniimage provides standard size constants for common image dimensions.
+OmniImage provides standard size constants for common image dimensions.
 
 ## Size Constants
 

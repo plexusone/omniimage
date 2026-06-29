@@ -1,6 +1,6 @@
 # Providers Overview
 
-omniimage supports multiple image generation providers through a unified interface.
+OmniImage supports multiple image generation providers through a unified interface.
 
 ## Available Providers
 

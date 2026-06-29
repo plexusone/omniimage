@@ -1,6 +1,6 @@
 # Getting Started
 
-This guide walks you through setting up omniimage and generating your first image.
+This guide walks you through setting up OmniImage and generating your first image.
 
 ## Installation
 

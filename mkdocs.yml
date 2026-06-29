@@ -1,4 +1,4 @@
-site_name: omniimage
+site_name: OmniImage
 site_description: Unified Go library for image generation across multiple providers
 site_url: https://plexusone.github.io/omniimage
 repo_url: https://github.com/plexusone/omniimage

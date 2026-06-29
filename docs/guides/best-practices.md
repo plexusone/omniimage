@@ -1,6 +1,6 @@
 # Best Practices
 
-Guidelines for getting the best results with omniimage.
+Guidelines for getting the best results with OmniImage.
 
 ## Prompt Engineering
 
