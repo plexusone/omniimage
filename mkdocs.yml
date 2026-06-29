@@ -4,11 +4,11 @@ site_url: https://plexusone.github.io/omniimage
 repo_url: https://github.com/plexusone/omniimage
 repo_name: plexusone/omniimage
 
-docs_dir: docs
-
 theme:
   name: material
+  custom_dir: docs/overrides
   palette:
+    # Dark mode first (PlexusOne default)
     - scheme: slate
       primary: custom
       accent: custom
@@ -27,20 +27,18 @@ theme:
     - navigation.top
     - search.highlight
     - content.code.copy
-    - content.tabs.link
 
 extra_css:
   - https://plexusone.dev/css/plexusone-mkdocs.css
 
 markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
-  - pymdownx.inlinehilite
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - admonition
+  - pymdownx.details
   - tables
   - toc:
       permalink: true
