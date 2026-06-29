@@ -1,0 +1,56 @@
+{
+  "irVersion": "1.0",
+  "project": "omniimage",
+  "repository": "https://github.com/plexusone/omniimage",
+  "versioning": "semver",
+  "commitConvention": "conventional",
+  "maintainers": ["plexusone", "johncwang@gmail.com"],
+  "releases": [
+    {
+      "version": "v0.1.0",
+      "date": "2026-06-29",
+      "commit": "d322f63",
+      "highlights": [
+        { "description": "Unified Go library for AI image generation with OpenAI and Fal AI providers" },
+        { "description": "Comprehensive MkDocs documentation site with API reference and guides" }
+      ],
+      "added": [
+        { "description": "Provider interface with `Generate`, `Edit`, `Variations`, and `Upscale` operations", "commit": "e6696e6" },
+        { "description": "Request/response types: `GenerateRequest`, `EditRequest`, `VariationsRequest`, `UpscaleRequest`", "commit": "e6696e6" },
+        { "description": "Image size constants: 256x256, 512x512, 768x1024, 1024x768, 1024x1024, 1024x1792, 1792x1024", "commit": "e6696e6" },
+        { "description": "Quality (`standard`, `hd`) and style (`vivid`, `natural`) enums", "commit": "e6696e6" },
+        { "description": "Structured error types: `ErrNoProviders`, `ErrUnknownProvider`, `ErrNotSupported`, `ErrRateLimited`, `ErrContentPolicy`", "commit": "cf11c53" },
+        { "description": "`APIError` type with status code, error code, message, and provider name", "commit": "cf11c53" },
+        { "description": "Model constants for OpenAI (GPT Image 2, GPT Image 1, DALL-E 3, DALL-E 2) and Fal AI (FLUX Pro/Dev/Schnell, SDXL)", "commit": "ed74f83" },
+        { "description": "`GetModelInfo()` function returning model metadata (provider, max images, HD support, edit support)", "commit": "ed74f83" },
+        { "description": "OpenAI provider with image generation, editing (DALL-E 2), and variations (DALL-E 2)", "commit": "7ba0d86" },
+        { "description": "Fal AI provider with image generation and upscaling via Clarity Upscaler", "commit": "d20ca0d" },
+        { "description": "Negative prompts, seeds, inference steps, and guidance scale for Fal AI", "commit": "d20ca0d" },
+        { "description": "Custom image dimensions via `ProviderOptions` for Fal AI", "commit": "d20ca0d" },
+        { "description": "`Client` with automatic provider instantiation and capability checks", "commit": "115e6ee" },
+        { "description": "`NewProvider()` factory function with environment variable fallback for API keys", "commit": "115e6ee" },
+        { "description": "`GetCapabilities()` function for static provider capability lookup", "commit": "115e6ee" }
+      ],
+      "tests": [
+        { "description": "Unit tests for client initialization and provider factory", "commit": "604518f" },
+        { "description": "Unit tests for OpenAI and Fal AI providers", "commit": "604518f" },
+        { "description": "Tests for model info and capability lookups", "commit": "604518f" }
+      ],
+      "documentation": [
+        { "description": "README with installation, quick start, and provider comparison", "commit": "dacf05a" },
+        { "description": "MkDocs site with Material theme", "commit": "d322f63" },
+        { "description": "Getting started guide with setup and basic usage", "commit": "d322f63" },
+        { "description": "Provider documentation for OpenAI and Fal AI", "commit": "d322f63" },
+        { "description": "API reference for client, types, and provider interfaces", "commit": "d322f63" },
+        { "description": "Best practices guide for prompts, performance, and security", "commit": "d322f63" },
+        { "description": "Error handling guide with retry patterns", "commit": "d322f63" },
+        { "description": "Image sizes reference with provider support matrix", "commit": "d322f63" }
+      ],
+      "build": [
+        { "description": "Go module initialization with `github.com/plexusone/omniimage`", "commit": "1fa06db" },
+        { "description": "GitHub Actions workflows for CI", "commit": "3f0ca57" },
+        { "description": "MIT license", "commit": "ef72fe3" }
+      ]
+    }
+  ]
+}
